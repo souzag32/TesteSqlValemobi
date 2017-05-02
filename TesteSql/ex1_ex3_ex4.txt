@@ -1,0 +1,31 @@
+1)
+	tb_customer
+
+	Chave primária: id_customer
+
+	------------------------------
+
+	dm_address_type
+
+	Chave primária: cd_address_type
+
+	---------------------------------
+
+	tb_customer_address
+
+	chave primária: id_customer, cd_address_type
+
+------------------------------------------------
+
+3)
+	Nenhum ou muitos endereços.
+
+--------------------------------------------------
+
+4)
+	Usar o comando Delete para deletar da base de dados, exemplo:
+	
+	Delete from tb_customer
+		Where cpf_cnpj = 88877766655
+
+	
