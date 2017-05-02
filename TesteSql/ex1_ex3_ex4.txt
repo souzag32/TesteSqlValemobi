@@ -26,6 +26,6 @@
 	Usar o comando Delete para deletar da base de dados, exemplo:
 	
 	Delete from tb_customer
-		Where cpf_cnpj = 88877766655
+		Where cpf_cnpj = 88877766655;
 
 	
