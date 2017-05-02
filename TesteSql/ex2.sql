@@ -1,4 +1,4 @@
-﻿--2)
+--2)
 
 Insert into tb_customer (id_customer, nm_customer, cpf_cnpj) 
 		Values (Next Value for tb_customer_id_customer_seq, 
